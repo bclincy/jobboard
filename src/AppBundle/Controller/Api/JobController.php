@@ -128,9 +128,9 @@ class JobController extends BaseController
      */
     public function listAction()
     {
-        $jobs = [];
-        $jobs['items'] = $this->getJobsRepository()->findAll();
-        $response = $this->createApiResponse($jobs, 200);
+        //$jobs = [];
+        //$jobs['items'] = $this->getJobsRepository()->findAll();
+        $response = $this->createApiResponse(['test1'], 200);
 
         return $response;
     }
