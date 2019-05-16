@@ -18,3 +18,4 @@
 /.data
 /logs
 /.idea
+web/ui/node_modules
